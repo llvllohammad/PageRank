@@ -21,8 +21,7 @@ public final class PageRank<V, E>
     public static final int MAX_ITERATIONS_DEFAULT = 100;
 
  
-    public static final double TOLERANCE_DEFAULT = 0.0001;
-
+    public static final double TOLERANCE_DEFAULT = 0.0001; //parmeter of stopping rule
    
     public static final double DAMPING_FACTOR_DEFAULT = 0.85d;
 
